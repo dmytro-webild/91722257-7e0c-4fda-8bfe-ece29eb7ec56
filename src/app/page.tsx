@@ -59,7 +59,7 @@ export default function LandingPage() {
       carouselItems={[
         { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844132744-sx7dc5ej.jpg", imageAlt: "Luxurious barbershop interior" },
         { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844275863-fbwpdiip.jpg", imageAlt: "Barber performing beard trim" },
-        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/barber-using-professional-clippers-on-a--1774842781349-afcd469c.png", imageAlt: "Barber cutting hair" },
+        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844300889-gshjhm4z.jpg", imageAlt: "Barber cutting hair" },
         { id: "4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844132744-vxdc9rdi.jpg", imageAlt: "Premium grooming tools" },
         { id: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844184307-ghqlms97.jpg", imageAlt: "Barbershop interior design" },
         { id: "6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/close-up-shot-of-a-sharp-fade-haircut-fi-1774842781322-abf77f9f.png", imageAlt: "Final haircut result" }
