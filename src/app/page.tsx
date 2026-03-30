@@ -12,6 +12,10 @@ import TestimonialCardFifteen from '@/components/sections/testimonial/Testimonia
 import { Phone } from "lucide-react";
 
 export default function LandingPage() {
+  const handleCall = () => {
+    window.location.href = "tel:+14034572857";
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="text-shift"
@@ -40,7 +44,7 @@ export default function LandingPage() {
       ]}
       brandName="Canadian Barber Shop"
       button={{
-        text: "Call Now",        href: "tel:+14034572857"}}
+        text: "Call Now",        onClick: handleCall}}
     />
   </div>
 
@@ -52,7 +56,7 @@ export default function LandingPage() {
       description="4.9⭐ from 240+ satisfied clients. Experience elite grooming from the city's finest professionals."
       buttons={[
         {
-          text: "Call Now",          href: "tel:+14034572857"},
+          text: "Call Now",          onClick: handleCall},
         {
           text: "Get Directions",          href: "https://maps.app.goo.gl/example"},
       ]}
@@ -81,7 +85,7 @@ export default function LandingPage() {
             "Consultation",            "Expert Cut",            "Hot Towel Finish"],
           buttons: [
             {
-              text: "Call to Book",              href: "tel:+14034572857"},
+              text: "Call to Book",              onClick: handleCall},
           ],
         },
         {
@@ -89,7 +93,7 @@ export default function LandingPage() {
             "Beard Shaping",            "Razor Lineup",            "Beard Oil Application"],
           buttons: [
             {
-              text: "Call to Book",              href: "tel:+14034572857"},
+              text: "Call to Book",              onClick: handleCall},
           ],
         },
         {
@@ -97,7 +101,7 @@ export default function LandingPage() {
             "Haircut & Wash",            "Beard Sculpting",            "Style Advice"],
           buttons: [
             {
-              text: "Call to Book",              href: "tel:+14034572857"},
+              text: "Call to Book",              onClick: handleCall},
           ],
         },
       ]}
@@ -167,7 +171,7 @@ export default function LandingPage() {
       ctaTitle="Book Your Seat Today"
       ctaDescription="Get the best grooming experience in Calgary. Call us now to secure your spot!"
       ctaButton={{
-        text: "Call Now (+1 403-457-2857)",        href: "tel:+14034572857"}}
+        text: "Call Now (+1 403-457-2857)",        onClick: handleCall}}
       ctaIcon={Phone}
       ariaLabel="Contact and FAQ section"
     />
@@ -187,7 +191,7 @@ export default function LandingPage() {
         {
           title: "Contact",          items: [
             {
-              label: "Call Us",              href: "tel:+14034572857"},
+              label: "Call Us",              onClick: handleCall},
             {
               label: "Directions",              href: "https://maps.app.goo.gl/example"},
           ],
