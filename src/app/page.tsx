@@ -81,7 +81,7 @@ export default function LandingPage() {
             "Consultation",            "Expert Cut",            "Hot Towel Finish"],
           buttons: [
             {
-              text: "Call to Book Appointment",              href: "tel:+14034572857"},
+              text: "Call to Book",              href: "tel:+14034572857"},
           ],
         },
         {
@@ -89,7 +89,7 @@ export default function LandingPage() {
             "Beard Shaping",            "Razor Lineup",            "Beard Oil Application"],
           buttons: [
             {
-              text: "Call to Book Appointment",              href: "tel:+14034572857"},
+              text: "Call to Book",              href: "tel:+14034572857"},
           ],
         },
         {
@@ -97,7 +97,7 @@ export default function LandingPage() {
             "Haircut & Wash",            "Beard Sculpting",            "Style Advice"],
           buttons: [
             {
-              text: "Call to Book Appointment",              href: "tel:+14034572857"},
+              text: "Call to Book",              href: "tel:+14034572857"},
           ],
         },
       ]}
