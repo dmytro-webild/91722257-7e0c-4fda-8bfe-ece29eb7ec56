@@ -44,7 +44,7 @@ export default function LandingPage() {
       ]}
       brandName="Canadian Barber Shop"
       button={{
-        text: "Call Now",        onClick: handleCall}}
+        text: "Call Now",        onClick: handleCall, className: "fixed bottom-6 right-6 z-50 md:static"}}
     />
   </div>
 
@@ -57,8 +57,6 @@ export default function LandingPage() {
       buttons={[
         {
           text: "Call Now",          onClick: handleCall},
-        {
-          text: "Get Directions",          href: "https://maps.app.goo.gl/example"},
       ]}
       carouselItems={[
         { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774844132744-sx7dc5ej.jpg", imageAlt: "Luxurious barbershop interior" },
@@ -192,8 +190,6 @@ export default function LandingPage() {
           title: "Contact",          items: [
             {
               label: "Call Us",              onClick: handleCall},
-            {
-              label: "Directions",              href: "https://maps.app.goo.gl/example"},
           ],
         },
       ]}
