@@ -94,7 +94,7 @@ export default function LandingPage() {
         },
         {
           id: "5",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png?_wi=1",
           imageAlt: "Barbershop interior design",
         },
         {
@@ -188,7 +188,7 @@ export default function LandingPage() {
           title: "Client Satisfaction",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png?_wi=2"
       imageAlt="Barbershop interior"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
