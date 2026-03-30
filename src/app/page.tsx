@@ -122,7 +122,7 @@ export default function LandingPage() {
         {
           value: "100%",          title: "Client Satisfaction"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/uploaded-1774846244740-xd53algj.png"
       imageAlt="Barbershop interior"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
