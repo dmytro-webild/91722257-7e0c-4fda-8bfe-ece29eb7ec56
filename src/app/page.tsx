@@ -57,19 +57,16 @@ export default function LandingPage() {
           text: "Get Directions",          href: "https://maps.app.goo.gl/example"},
       ]}
       carouselItems={[
-        {
-          id: "1",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/professional-barbershop-interior-warm-li-1774842781749-af9d5b4a.png",          imageAlt: "Luxurious barbershop interior"},
-        {
-          id: "2",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/action-shot-of-a-professional-barber-tri-1774842781119-37e56971.png",          imageAlt: "Barber performing beard trim"},
-        {
-          id: "3",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/barber-using-professional-clippers-on-a--1774842781349-afcd469c.png",          imageAlt: "Barber cutting hair"},
-        {
-          id: "4",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/luxury-barbershop-tools-and-products-nea-1774842781883-0a25f7e3.png",          imageAlt: "Premium grooming tools"},
-        {
-          id: "5",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png?_wi=1",          imageAlt: "Barbershop interior design"},
-        {
-          id: "6",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/close-up-shot-of-a-sharp-fade-haircut-fi-1774842781322-abf77f9f.png",          imageAlt: "Final haircut result"},
+        { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/professional-barbershop-interior-warm-li-1774842781749-af9d5b4a.png", imageAlt: "Luxurious barbershop interior" },
+        { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/action-shot-of-a-professional-barber-tri-1774842781119-37e56971.png", imageAlt: "Barber performing beard trim" },
+        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/barber-using-professional-clippers-on-a--1774842781349-afcd469c.png", imageAlt: "Barber cutting hair" },
+        { id: "4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/luxury-barbershop-tools-and-products-nea-1774842781883-0a25f7e3.png", imageAlt: "Premium grooming tools" },
+        { id: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/wide-interior-shot-of-a-clean-premium-ba-1774842782421-60086dfb.png?_wi=1", imageAlt: "Barbershop interior design" },
+        { id: "6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BeB4KIkmM6dj3qCLc61hRyv1Y1/close-up-shot-of-a-sharp-fade-haircut-fi-1774842781322-abf77f9f.png", imageAlt: "Final haircut result" }
       ]}
+      autoPlay={true}
+      autoPlayInterval={4000}
+      ariaLabel="Hero section"
     />
   </div>
 
@@ -106,6 +103,7 @@ export default function LandingPage() {
       ]}
       title="Our Services"
       description="Premium grooming experiences tailored to your style."
+      ariaLabel="Pricing section"
     />
   </div>
 
@@ -126,6 +124,7 @@ export default function LandingPage() {
       imageAlt="Barbershop interior"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
+      ariaLabel="About section"
     />
   </div>
 
@@ -149,6 +148,7 @@ export default function LandingPage() {
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
+      ariaLabel="Testimonial section"
     />
   </div>
 
@@ -169,6 +169,7 @@ export default function LandingPage() {
       ctaButton={{
         text: "Call Now (+1 403-457-2857)",        href: "tel:+14034572857"}}
       ctaIcon={Phone}
+      ariaLabel="Contact and FAQ section"
     />
   </div>
 
@@ -194,6 +195,7 @@ export default function LandingPage() {
       ]}
       bottomLeftText="© 2024 Canadian Barber Shop & Hair Styling. All rights reserved."
       bottomRightText="6546 4 St NE, Calgary, AB"
+      ariaLabel="Site footer"
     />
   </div>
       </ReactLenis>
